@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.p1{
+    color: blue;
+}
+
+.p2{
+    color: red;
+}

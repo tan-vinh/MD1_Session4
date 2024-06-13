@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        div{
+            background-color: gray;
+        }
+        #a{
+            width: 50%;
+        }
+        #b{
+            text-align: center;
+            background-color: blue;
+            color: white;
+            width: 25%;
+            border-radius: 5px;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <form action="">
+            <h1>Billing address</h1>
+            <div>
+                <table>
+                    <tr>
+                        <td>First name</td>
+                        <td>Last name</td>
+                    </tr>
+                    <tr>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                    </tr>
+                </table>
+            </div>
+            <p>Username</p>
+            <button>@</button><input type="text" placeholder="Username">
+            <p>Email(Optional)</p>
+            <input type="email" placeholder="you@example.com">
+            <p>Address</p>
+            <input type="text" placeholder="1234 Main St">
+            <p>Address 2(Optional)</p>
+            <input type="text" placeholder="Âprtment or suite">
+            <div>
+                <table>
+                    <tr>
+                        <td>Country</td>
+                        <td>State</td>
+                        <td>Zip</td>
+                    </tr>
+                    <tr>
+                        <td><select>
+                            <option value="">choose...</option>
+                        </select></td>
+                        <td><select>
+                            <option value="">choose...</option>
+                        </select></td>
+                        <td><input type="text"></td>
+                    </tr>
+                </table>
+            </div>
+            <hr>
+            <input type="checkbox"> Shipping address is the same as my billing address
+            <br>
+            <input type="checkbox"> Save this information for next time
+            <hr>
+            <h1>Payment</h1>
+            <input type="radio" name="pay"> Credit card
+            <br>
+            <input type="radio" name="pay"> Debit card
+            <br>
+            <input type="radio" name="pay"> Paypal
+            <br>
+            <table>
+                <tr>
+                    <td>Name on card</td>
+                    <td>Credit card number</td>
+                </tr>
+                <tr>
+                    <td><input type="text"></td>
+                    <td><input type="number"></td>
+                </tr>
+            </table>
+            <p><sub>Full name as displayed on card</sub></p>
+            <div id="a">
+                <table>
+                    <tr>
+                        <td>Expiration</td>
+                        <td>CVV</td>
+                    </tr>
+                    <tr>
+                        <td><input type="text"></td>
+                        <td><input type="number"></td>
+                    </tr>
+                </table>
+            </div>
+            <hr>
+            <button id="b">Continue to checkout</button>
+        </form>
+    </div>
+</body>
+</html>
