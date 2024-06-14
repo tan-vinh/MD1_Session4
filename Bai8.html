@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
+    <!-- <style>
         *{
             margin: 0;
             padding: 0;
@@ -26,21 +26,24 @@
             color: white;
             border-radius: 5px;
         }
-    </style>
+    </style> -->
+    <link rel="stylesheet" href="Bai8.css">
     <title>Document</title>
 </head>
 <body>
-    <div>
-        <table id="b">
-            <tr>
-                <td><b>Modal 1</b></td>
-                <td class="b">X</td>
-            </tr>
-        </table>
-        <div id="a">
+    <div class="modal">
+        <div class="modal-hearder">
+            <div class="modal-titel">
+                <h3>Modal 1</h3>
+            </div>
+            <div class="modal-close-btn">
+                <a href="">X</a>
+            </div>
+        </div>
+        <div class="modal-body">
             <p>Show a second modal and hide this one with the button below.</p>
         </div>
-        <div class="a">
+        <div class="modal-footer">
             <button>Open second modal</button>
         </div>
     </div>
